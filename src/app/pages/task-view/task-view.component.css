@@ -1,0 +1,18 @@
+
+.task {
+    display: flex;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+    align-items: center;
+    
+}
+
+    .completed  {
+        text-decoration: line-through;
+        opacity: 0.8;
+        color: red;
+    }
+

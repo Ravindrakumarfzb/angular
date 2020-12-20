@@ -1,0 +1,50 @@
+
+  
+
+  <div class="header bg-gradient-danger pb-8 pt-5 pt-md-8">
+  </div>
+  <div class="container-fluid mt--7">
+    <div class="row">
+      <div class="col">
+        <div class="card shadow border-0">
+          <div class="card-body px-lg-4 py-lg-5 ">
+            <div class="row card-body px-lg-4 py-lg-5">
+              <div class="col-sm-2">
+              </div>
+              <div class="col-sm-8">
+                <form>
+                  <div class="row ">
+                    <div class="col-md-12">
+                      <div class="form-group">
+                        <div class="input-group mb-4">
+                          <input class="form-control" #taskTitleInput  placeholder="Enter task name..." type="text">
+                          <div class="input-group-append">
+                            <span class="input-group-text"><i class="ni ni-zoom-split-in"></i></span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+            <div class="row mt-3">
+              <div class="col-6">
+                <button type="button" class="btn btn-primary my-4"
+                (click)="updateTask(taskTitleInput.value)" >Update Task</button>
+              </div>
+              <div class="col-6 text-right">
+                <button type="button" class="btn btn-primary my-4"routerLink="/"
+                 >Cancel</button>
+              </div>
+            </div>
+              </div>
+              <div class="col-sm-2">
+                
+              </div>
+            </div>
+
+      </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
